@@ -1,0 +1,646 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: marker felt, fantasy;
+    }
+
+    body{
+        background-color: rgb(242, 171, 183);
+    }
+
+    header{
+        background-color:rgb(225, 126, 142);
+        height: 100px;
+        width: 100%;
+        border-top-left-radius: 3cm; 
+        border-top-right-radius: 3cm;
+    }
+    header h2 {
+        color: white;
+        padding-top:40px;
+        padding-bottom: 10px;
+        font-size: 50px;  
+        font-family: marker felt, fantasy;
+        text-align: center;
+    }
+    nav{
+        height: 80px;
+        background-color: rgb(225, 126, 142);
+    }
+    nav ul{
+        margin: -1px;
+        text-align: center;
+        word-spacing: 1mm;
+    }
+    nav li{
+        list-style: none;
+        display: inline-block;
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    nav a{
+        position: relative;
+        padding: 10px;
+        transition: 0.3s;
+        text-decoration-line: none;
+        color:rgb(147, 72, 149);
+    }
+    nav a:hover{
+        opacity: 0.3;
+    }
+
+    .redyellowgreen{
+        position: relative;
+        text-align: right;
+    }
+    .redyellowgreen ul{
+        margin: 7mm;
+    }
+    .redyellowgreen li{
+        list-style: none;
+        display: inline-block;
+        padding: 3mm;
+        transition: transform 1s ease;
+    }
+    .redyellowgreen li:hover{
+        transform: scale(1.08);
+    }
+    .fb:hover{
+        background-color: red;
+        border-radius: 3cm;
+    }
+    .ig:hover{
+        background-color:yellow;
+        border-radius: 2mm;
+    }
+    .email:hover{
+        background-color:greenyellow;
+        border-radius: 2mm;
+    }
+
+    .introduction{
+        margin-bottom: 17cm;
+    }
+    .introwords{
+        float: right;
+        font-size:7mm;
+        position: relative;
+        line-height: 1cm;
+        margin-right: 6cm;
+        margin-top: 2cm;
+    }
+
+    .allresumepic{
+        float: left;
+        position:relative;
+        border-radius: 3cm;
+        padding: 1cm;
+        margin-left: 3cm;
+        margin-top: -1cm;
+        width:19%;
+        height: 19%;
+        -webkit-filter: sepia(0%);
+        filter: sepia(0%);
+        background-color: rgb(196, 86, 105);
+    }
+    .allresumepic:hover{
+        -webkit-filter: sepia(100%);
+        filter: sepia(100%);
+    }
+    .allresumepic img{
+        border-radius: 2.5cm;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .allofme{
+        margin-bottom: 19cm;
+    }
+    .allofme p{
+        font-size: 14mm;
+        color: white;
+        word-spacing: 3mm;
+        position: relative;
+        text-align: center;
+    }
+    .form{
+        position: relative;
+        border: 4px solid rgb(195, 43, 66);
+        margin-left: 4cm;
+        margin-top: 2cm;
+        width: 500px;
+        height: 500px;
+        float: left;
+    }
+    td{ 
+        border: 1px solid purple ;
+        font-size: 6mm;
+        font-family: Hanzipen SC;
+        width: 50%;
+        color:rgb(22, 97, 163);
+        background-color: #99c0e2;
+        text-align: center;
+        transform: rotateY(180deg);
+    }
+    td:hover{
+        transform: rotateY(0deg);
+        transition: transform 0.6s;
+    }
+    .righttable{
+        float: right;
+        background-color: bisque;
+        transform: rotate(15deg);
+        width: 220px;
+        height: 280px;
+        padding: 4mm 4mm 15mm 4mm;
+        margin-right: 2cm;
+        margin-bottom: 1cm;
+    }
+    .righttable img{
+        float: right;
+        width: 220px;
+        height: 280px;
+        transform: rotate(0deg);
+        margin-bottom: 5mm;
+    }
+    .righttable p{
+        font-size: 7mm;
+        color: black;
+        transform: rotate(0deg);
+    }
+    .underrighttable{
+        position: relative;
+        width: 540px;
+        float: right;
+        margin-right: 15mm;
+        margin-top: 17mm;
+    }
+    .underrighttable p{
+        font-size: 8mm;
+        text-align: center;
+        color:#2478c1;
+        line-height: 14mm;
+    }
+
+
+
+
+
+    
+    .allprogram{
+        margin-bottom: 19cm;
+    }
+    .program{
+        float: left;
+        position: relative;
+    }
+    .topicpro p{
+        width: 100%;
+        color: white;
+        font-size: 14mm;
+        text-align: center;
+        position: relative;
+    }
+    ul{
+        list-style: none;
+        margin-top: 3cm;
+    }
+    .box{
+        display: flex;
+        justify-content: left;
+        padding: 0px 0px 0px 130px; 
+    }
+    .skillname{
+        position: relative;
+        width: 300px;
+        height: 10px;
+        left: 100px;
+        font-size: 6mm;
+        color: black;    
+    }
+    .loading {
+        background-color:#bbd6ed;
+        width: 400px;
+        height: 45px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: #beb6b0 3px solid;
+        overflow: hidden;
+        position: relative;
+        left: 210px;
+        margin-bottom: 4mm;
+      }
+      
+    #sk1 {
+        height: 45px;
+        width: 85%;
+        background-color: rgb(114, 142, 195);
+        animation: ski2 9s ease;
+        animation-iteration-count: infinite;
+    }
+    #sk2 {
+        height: 45px;
+        width: 72%;
+        background-color: rgb(114, 142, 195);
+        animation: ski3 9s ease;
+        animation-iteration-count: infinite;
+    }
+    #sk3 {
+        height: 45px;
+        width: 86%;
+        background-color: rgb(114, 142, 195);
+        animation: ski4 9s ease;
+        animation-iteration-count: infinite;
+    }
+    #sk4 {
+        height: 45px;
+        width: 95%;
+        background-color: rgb(114, 142, 195);
+        animation: ski5 9s ease;
+        animation-iteration-count: infinite;
+    }
+    #sk5 {
+        height: 45px;
+        width: 70%;
+        background-color: rgb(114, 142, 195);
+        animation: ski6 9s ease;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes ski1 {
+        0% {
+          width: 0;
+        }
+      
+        100% {
+          width: 70%;
+        }
+    }
+    @keyframes ski2 {
+        0% {
+          width: 0;
+        }
+      
+        100% {
+          width: 85%;
+        }
+    }
+    @keyframes ski3 {
+        0% {
+          width: 0;
+        }
+      
+        100% {
+          width: 72%;
+        }
+    }
+    @keyframes ski4 {
+        0% {
+          width: 0;
+        }
+      
+        100% {
+          width: 86%;
+        }
+    }
+    @keyframes ski5 {
+        0% {
+          width: 0;
+        }
+      
+        100% {
+          width: 95%;
+        }
+    }
+    @keyframes ski6 {
+        0% {
+          width: 0;
+        }
+      
+        100% {
+          width: 70%;
+        }
+    }
+    .time{
+        border-right: #5f4b3e 2px solid;
+        margin: 0 5px;
+    }
+
+    .prothink{
+        width: 350px;
+        height: 500px;
+        padding: 1cm;
+        background-color:rgb(204, 204, 231);
+        float: right;
+        position: relative;
+        margin-top: 1cm;
+        margin-right: 3cm;
+        border: purple dashed 5px;
+        border-radius: 3mm;
+    }
+    .one img{
+        position: relative;
+        float: left;
+        width: 150px;
+        height: 150px;
+        border-radius: 3mm;
+    }
+    .two img{
+        float: right;
+        width: 150px;
+        height: 150px;
+        border-radius: 3mm;
+        margin-top: 20mm;
+    }
+    .three img{
+        float: left;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 3mm;
+        margin-right: 22mm;
+        margin-top: 5mm;
+    }
+    .one p{
+        float: right;
+        position: relative;
+        margin-right: 1mm;
+        line-height: 12mm;
+        text-align: center;
+        color: brown;
+        font-size: 6mm;
+        margin-top: 4mm;
+        font-family: Hanzipen SC;
+    }
+    .two p{
+        float: left;
+        width: 170px;
+        height: 150px;
+        position: relative;
+        margin-left: 0mm;
+        line-height: 12mm;
+        text-align: center;
+        color: brown;
+        font-size: 6mm;
+        margin-top: 9mm;
+        font-family: Hanzipen SC;
+    }
+    .three p{
+        float: right;
+        width: 170px;
+        height: 150px;
+        margin-right: 1mm;
+        line-height: 12mm;
+        text-align: center;
+        color: brown;
+        font-size: 6mm;
+        margin-right: 1mm;
+        margin-top: -35mm;
+        font-family: Hanzipen SC;
+    }
+
+
+
+
+
+
+    .activities h1{
+        text-align: center;
+        font-size: 14mm;
+        color: white;
+    }
+    .activities p{
+        float: right;
+        font-size: 7mm;
+        font-family: marker felt, fantasy;
+        line-height: 3cm;
+        margin-right: 7cm;
+        margin-top: 1cm;
+    }
+
+    img.basketball{
+        float: left;
+        width: 15mm;
+        height: 15mm;
+        margin-left: 75mm;
+        margin-top: 18mm;
+    }
+    img.music{
+        float: left;
+        width: 14mm;
+        height: 14mm;
+        margin-left: 75mm;
+        margin-top: 13mm;
+    }
+    .movepic{
+        margin-bottom: 1cm;
+    }
+    .picspace{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    .picspace img{
+        min-width: 33.4%;
+        height: 310px;
+        object-fit: cover;
+        transform: translateX(0);
+        animation: start 13s linear infinite;
+    }
+
+    @keyframes start {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+    }
+
+
+    .basketfourpic{
+        position: relative;
+        margin-top: 3cm;
+        margin-bottom: 4cm;
+    }
+    .alltimeset{
+        line-height: 1.34cm;
+        float: left;
+        margin-left: 3cm;
+        margin-top: 4cm;
+    }
+    .time{
+        font-family: "Hanzipen SC";
+        font-weight:bold;
+        font-size: x-large;
+        color: white;
+        background-color: rgb(227, 122, 140);
+        border-radius: 3mm;
+        text-align: center;
+        width: 3cm;
+        transition: transform 1s ease;
+    }
+    .time:hover{
+        transform: scale(1.08);
+        color:rgb(53, 190, 228);
+    }
+    .timebox{
+        float: left;
+        width: 100px;
+        height: 580px;
+        position: relative;
+        margin-top: 23mm;
+        margin-left: 6mm;
+    }
+    .timeline{
+        margin: auto;
+        width: 4px;
+        height: 480px;
+        background-color:#1f7ed0;
+    }
+    .circle{
+        position: absolute;
+        top: 0; 
+        left: calc(50% - 10px);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border:5px pink solid;
+    }
+    .circle1{
+        top: 80px;
+    }
+    .circle2{
+        top: 180px;
+    }
+    .circle3{
+        top: 280px;
+    }
+    .circle4{
+        top: 380px;
+    }
+
+    
+
+    .between{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-xp1{
+        position:relative;
+        float: left;
+        width: 450px;
+        height: 300px;
+        margin-bottom: 10mm;
+    }
+    .container-xp2{
+        position: relative;
+        float: right;
+        width: 450px;
+        height: 300px;
+    }
+    .container-xp3{
+        position: relative;
+        float: left;
+        width: 450px;
+        height: 300px;
+        margin-left: -50px;
+    }
+    .container-xp4{
+        position: relative;
+        float: right;
+        width: 400px;
+        height: 300px;
+    }
+    .xp-img{
+        float: left;
+        width:400px;
+        height:300px;
+        border:6px rgb(92, 92, 88) double;
+        border-radius: 18px;
+    }
+    .info p{
+        font-size:25px;
+        color: black;
+        margin: 30px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .info{
+        opacity: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.65);
+        border-radius: 18px;
+        width: 410px;
+        height: 310px;
+        top: 0px;
+        left: 0px;
+    }
+    .info:hover{
+        opacity: 1;
+        transition: opacity 0.8s;
+    }
+
+
+
+
+    .mybackground{
+        position: relative;
+        line-height: 20mm;
+        margin-bottom: 2cm;
+        margin-left: 3cm;
+    }
+    .school {
+        width: 100%;
+        height: 100%;
+        transition: transform 1s ease;
+    }
+    .school:hover{
+        transform: scale(1.08);
+    }
+    p.school:hover{
+        color:white;
+    }
+    .picschool a{
+        margin-right: 2cm;
+    }
+    .Elementary{
+        position: relative;
+        border-radius: 5cm;
+        transition: transform 1s ease;
+        margin-left: 4.5cm;
+    }
+    .Elementary:hover{
+        transform: scale(1.08);
+    }
+
+    .Junior{
+        position: relative;
+        border-radius: 5cm;
+        transition: transform 1s ease;
+    }
+    .Junior:hover{
+        transform: scale(1.08);
+    }
+
+    .Senior{
+        position: relative;
+        border-radius: 5cm;
+        transition: transform 1s ease;
+    }
+    .Senior:hover{
+        transform: scale(1.08);
+    }
+
+    .College{
+        position: relative;
+        border-radius: 5cm;
+        transition: transform 1s ease;
+    }
+    .College:hover{
+        transform: scale(1.08);
+    }
+
+
